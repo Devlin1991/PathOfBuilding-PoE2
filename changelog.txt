@@ -1,3 +1,78 @@
+VERSION[beta][2025/12/12]
+
+--- New to Path of Building ---
+- Add Movement Speed while using skill to sidebar (LocalIdentity)
+- Add support for Rathpith Globe Life Cost mod (LocalIdentity)
+- Add support for Primed to Explode and Price of Freedom (Blitz54)
+- Add support for Magma Barrier Block chance buff + Evasion on Shield mod (LocalIdentity)
+- Add support for "you and allies" Grip of Kulemak mods (Blitz54)
+- Add support for Bolt Speed (Blitz54)
+- Add support for Focused Curse (Blitz54)
+- Add support for Unbending (Blitz54)
+- Add support for Heatshiver and Yoke of Suffering (LocalIdentity)
+- Add damage against Uniques on some skill gems (LocalIdentity)
+- Add support for Rigwald's Ferocity (LocalIdentity)
+- Add support for Uhtred's Augury / Exodus / Omen (LocalIdentity)
+- Add support for Embitter (LocalIdentity)
+- Update Spectres and World Areas to 0.3.1 (Blitz54)
+- Add "Base Damage" sorting option for Spectres (Blitz54)
+- Add support for Shankgonne "you cannot sprint" (Blitz54)
+- Add support for "duration of bleeding on you" (Blitz54)
+- Add support for Bleed IV damage mod (Blitz54)
+- Update Enemy Config Level and Tooltip (Blitz54)
+- Show proper Unique Jewel Icons on tree (Blitz54)
+- Add gold respec to node tooltips and tree comparison (Blitz54)
+- Add setting to override Windows scaling from PoB (LocalIdentity)
+- Memoize MatchKeywordFlags function (LocalIdentity)
+- Add support for requirements needed for total equipped support gems (Blitz54)
+- Add parsing for Molten One's Gift notable (RomanovV)
+
+--- Fixed Crashes ---
+- Fix Crash when hovering over some Tree nodes with Hulking Form allocated (LocalIdentity)
+- Fix crash when pasting item from Trade site (Blitz54)
+
+--- User Interface ---
+- Fix Header Influence Icon Showing on Jewel Sockets (Blitz54)
+- Fix display name for Blind II effect mod (LocalIdentity)
+- Fix Tooltip for Lich Socket (Blitz54)
+- Make unset quest rewards more visible (Nightblade)
+- Add CTRL + C to error message to copy error text (Blitz54)
+- Sort Gem list Alphabetically by default (Blitz54)
+- Add support for DPI Scaling (LeonSparta)
+- Update Font Files (LocalIdentity)
+
+--- Fixed Calculations ---
+- Fix Zealots Oath to apply excess Life Regen as ES Regen (LocalIdentity)
+- Fix stat values for some Tree nodes when using Hulking Form (LocalIdentity)
+- Fix 50% Less Curse Effect on Boss (Blitz54)
+- Fix Minion Reservation values + add Minion Count to breakdown (LocalIdentity)
+- Fix Bonestorm Cast time not having breakpoints for extra projectiles (LocalIdentity)
+- Fix Revive Time calculation and show time for Spectres / Companion (LocalIdentity)
+- Fix evade chance for 0.3.1 (Nightblade)
+- Fix incorrect max resist calculation when using Saffell's Frame unique (raxkin)
+
+--- Fixed Behaviours ---
+- Load Crossbow Damage skills by default instead of Ammo Skill (LocalIdentity)
+- Fix Prism of Belief + levels not working with some Skill Gems (LocalIdentity)
+- Fix Skill Speed not affecting Totem Placement Speed (LocalIdentity)
+- Fix Bosses missing 50% less Exposure Effect (LocalIdentity)
+- Fix Block Chance not showing up for majority of builds (LocalIdentity)
+- Fix Magnified Area II less Area damage mod not working (LocalIdentity)
+- Remove forced CritInPast8Sec when skill has any crit (Blitz54)
+- Fix Kalandra's Touch working in Ring slot 3 (Wires77)
+- JIT 2.1 Fixes (LocalIdentity)
+- Load Gem tooltips on hover instead of when sorting by DPS (LocalIdentity)
+- Fix skill gems not showing requirements in breakdown if selected without searching (Blitz54)
+
+--- Accuracy Improvements ---
+- Fix Fanatic Bow, Bolting Quarterstaff missing flat Elemental Damage (LocalIdentity)
+
+--- Other changes ---
+- Add support for Item Requirements on items with Granted Skills and Fix Soul Cores (Blitz54)
+- Update to SimpleGraphic v2.4.1 (github-actions[bot])
+- Update to SimpleGraphic v2.5.0 (github-actions[bot])
+- Fix errorneous call to GetUserPath and update pop-up message (Wires77)
+
 VERSION[0.12.2][2025/09/16]
 
 --- Fixed Behaviours ---
